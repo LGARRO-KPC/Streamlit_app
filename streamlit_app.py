@@ -1,4 +1,7 @@
 import streamlit
 
 streamlit.title('Test LGA')
-streamlit.title(' LGA')
+
+streamlit.header('Menu 1')
+streamlit.text('exemple 1')
+streamlit.text('exemple 2')
