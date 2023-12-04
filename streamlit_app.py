@@ -11,9 +11,8 @@ my_cur.execute("SELECT * from FRUIT_LOAD_LIST")
 # streamlit.text(my_data_row)
 
 my_data_rows = my_cur.fecthall()
-streamlit.header("Hello INES 🥑")
 streamlit.header("The fruit loas list contains:")
-streamlit.header(my_data_rows)
+streamlit.dataframe(my_data_rows)
 
 streamlit.header("Fruityvice Fruit Advice!")
 
