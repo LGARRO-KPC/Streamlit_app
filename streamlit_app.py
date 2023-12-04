@@ -1,7 +1,6 @@
 import streamlit
 import pandas
 
-
 streamlit.header("Fruityvice Fruit Advice!")
 
 streamlit.header('🥣 Breakfast Menu')
