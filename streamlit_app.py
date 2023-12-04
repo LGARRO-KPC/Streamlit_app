@@ -10,6 +10,7 @@ my_data_row = my_cur.fetchone()
 # streamlit.text("The fruit loas list contains:")
 # streamlit.text(my_data_row)
 
+streamlit.header("Hello INES")
 streamlit.header("The fruit loas list contains:")
 streamlit.header(my_data_row)
 
