@@ -1,6 +1,6 @@
 import streamlit
 import pandas
-
+import snowflake-connector-python
 streamlit.header("Fruityvice Fruit Advice!")
 
 streamlit.header('🥣 Breakfast Menu')
